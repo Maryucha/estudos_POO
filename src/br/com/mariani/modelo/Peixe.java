@@ -14,12 +14,12 @@ public class Peixe extends Animal {
     private String tipoHabitat;
     List<Animal> listaAnimais = new ArrayList<>();
 
-    public Peixe(String tipoHabitat, Especie especie, String nome, double peso) {
+    public Peixe(String tipoHabitat, EnumEspecie especie, String nome, double peso) {
         super(especie, nome, peso);
         this.tipoHabitat = tipoHabitat;
     }
 
-    public Peixe(Especie especie) {
+    public Peixe(EnumEspecie especie) {
         super(especie);
     }
 

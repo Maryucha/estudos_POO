@@ -18,12 +18,12 @@ public class Cachorro extends Animal {
 
     private String raca;
 
-    public Cachorro(String raca, Especie especie, String nome, double peso) {
+    public Cachorro(String raca, EnumEspecie especie, String nome, double peso) {
         super(especie, nome, peso);
         this.raca = raca;
     }
 
-    public Cachorro(Especie especie) {
+    public Cachorro(EnumEspecie especie) {
         super(especie);
     }
 

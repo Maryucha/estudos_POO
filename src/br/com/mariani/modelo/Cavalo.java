@@ -14,12 +14,12 @@ public class Cavalo extends Animal {
     Scanner entrada = new Scanner(System.in);
     private List<Animal> listaAnimais = new ArrayList<>();
 
-    public Cavalo(String raca, Especie especie, String nome, double peso) {
+    public Cavalo(String raca, EnumEspecie especie, String nome, double peso) {
         super(especie, nome, peso);
         this.raca = raca;
     }
 
-    public Cavalo(Especie especie) {
+    public Cavalo(EnumEspecie especie) {
         super(especie);
     }
 

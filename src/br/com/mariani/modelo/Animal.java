@@ -14,28 +14,28 @@ import java.util.Scanner;
  */
 public abstract class Animal {
 
-    private Especie especie;
+    private EnumEspecie especie;
     private String nome;
     private double peso;
     private Scanner entrada = new Scanner(System.in);
     private DecimalFormat dF = new DecimalFormat("0.##");
 
-    public Animal(Especie especie) {
+    public Animal(EnumEspecie especie) {
         this.especie=especie;
     }
 
-    public Animal(Especie especie, String nome, double peso) {
+    public Animal(EnumEspecie especie, String nome, double peso) {
         this.especie = especie;
         this.nome = nome;
         this.peso = peso;
     }
 
 
-    public Especie getEspecie() {
+    public EnumEspecie getEspecie() {
         return especie;
     }
 
-    public void setEspecie(Especie especie) {
+    public void setEspecie(EnumEspecie especie) {
         this.especie = especie;
     }
 

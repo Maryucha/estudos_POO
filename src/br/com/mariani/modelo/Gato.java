@@ -14,12 +14,12 @@ public class Gato extends Animal {
     private String raca;
     List<Animal> listaAnimais = new ArrayList<>();
 
-    public Gato(String raca, Especie especie, String nome, double peso) {
+    public Gato(String raca, EnumEspecie especie, String nome, double peso) {
         super(especie, nome, peso);
         this.raca = raca;
     }
 
-    public Gato(Especie especie) {
+    public Gato(EnumEspecie especie) {
         super(especie);
     }
     

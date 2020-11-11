@@ -12,10 +12,10 @@ import java.util.Scanner;
 public class Chamar {
 
     Scanner entrada = new Scanner(System.in);
-    Cachorro dog = new Cachorro(Especie.CACHORRO);
-    Cavalo horse = new Cavalo(Especie.EQUINO);
-    Gato cat = new Gato(Especie.FELINO);
-    Peixe fish = new Peixe(Especie.AQUATICOS);
+    Cachorro dog = new Cachorro(EnumEspecie.CACHORRO);
+    Cavalo horse = new Cavalo(EnumEspecie.EQUINO);
+    Gato cat = new Gato(EnumEspecie.FELINO);
+    Peixe fish = new Peixe(EnumEspecie.AQUATICOS);
 
     List<Animal> listaAnimais = new ArrayList<>();
 
@@ -75,16 +75,16 @@ public class Chamar {
             System.out.println("ESPÉCIE " + listaAnimais.get(i).getEspecie() + " ");
             System.out.println("NOME " + listaAnimais.get(i).getNome() + " ");
             
-            if (listaAnimais.get(i).getEspecie()==Especie.CACHORRO) {
+            if (listaAnimais.get(i).getEspecie()==EnumEspecie.CACHORRO) {
                 raca = dog.getRaca();
                 System.out.println("RAÇA "+raca);
-            } else if (listaAnimais.get(i).getEspecie()==Especie.FELINO) {
+            } else if (listaAnimais.get(i).getEspecie()==EnumEspecie.FELINO) {
                 raca = cat.getRaca();
                 System.out.println("RAÇA "+raca);
-            } else if (listaAnimais.get(i).getEspecie()==Especie.AQUATICOS) {
+            } else if (listaAnimais.get(i).getEspecie()==EnumEspecie.AQUATICOS) {
                 tipoHabitat = fish.getTipoHabitat();
                 System.out.println("Habitat "+tipoHabitat);
-            } else if (listaAnimais.get(i).getEspecie()==Especie.EQUINO) {
+            } else if (listaAnimais.get(i).getEspecie()==EnumEspecie.EQUINO) {
                 raca = horse.getRaca();
                 System.out.println("RAÇA "+raca);
             }
