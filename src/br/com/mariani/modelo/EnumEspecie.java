@@ -4,7 +4,7 @@ package br.com.mariani.modelo;
  *
  * @author maryucha
  */
-public enum Especie {
+public enum EnumEspecie {
 
     CACHORRO("cachorro"),
     FELINO("gato"),
@@ -13,7 +13,7 @@ public enum Especie {
 
     private String descricao;
     
-    Especie(String descricao){
+    EnumEspecie(String descricao){
         this.descricao=descricao;
     }
     
