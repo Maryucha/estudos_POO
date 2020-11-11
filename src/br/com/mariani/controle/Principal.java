@@ -2,10 +2,7 @@ package br.com.mariani.controle;
 
 import br.com.mariani.modelo.Animal;
 import br.com.mariani.modelo.Chamar;
-import java.applet.Applet;
-import java.applet.AudioClip;
 import java.awt.HeadlessException;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -17,7 +14,6 @@ import java.util.Scanner;
 public class Principal {
 
     public static void main(String[] args) {
-        Principal tocar = new Principal();
 
         Scanner entrada = new Scanner(System.in);
         List<Animal> listaAnimais = new ArrayList<>();
