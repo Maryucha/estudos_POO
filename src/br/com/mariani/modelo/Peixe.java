@@ -23,13 +23,16 @@ public class Peixe extends Animal {
         super(especie);
     }
 
-      
     public String getTipoHabitat() {
         return tipoHabitat;
     }
 
     public void setTipoHabitat(String tipoHabitat) {
         this.tipoHabitat = tipoHabitat;
+    }
+    
+    public void nadar(){
+        System.out.println(">>>>>>>>>>>");
     }
     
     public void cadPeixe() {

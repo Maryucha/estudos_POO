@@ -30,6 +30,9 @@ public class Gato extends Animal {
     public void setRaca(String raca) {
         this.raca = raca;
     }
+    public void miar(){
+        System.out.println("miau, miau, miau...");
+    }
 
     public void cadGato() {
         System.out.println("=============CADASTRO GATO=========");

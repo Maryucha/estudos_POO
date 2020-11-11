@@ -30,6 +30,10 @@ public class Cavalo extends Animal {
     public void setRaca(String raca) {
         this.raca = raca;
     }
+    
+    public void cavalgar(){
+        System.out.println("pocotó, pocotó, pocotó,...");
+    }
 
     public void cadCavalo() {
         System.out.println("=============CADASTRO CAVALO=========");

@@ -27,14 +27,16 @@ public class Cachorro extends Animal {
         super(especie);
     }
 
-   
-
     public String getRaca() {
         return raca;
     }
 
     public void setRaca(String raca) {
         this.raca = raca;
+    }
+    
+    public void latir(){
+        System.out.println("au au au au au!");
     }
 
     public void cadCachorro() {

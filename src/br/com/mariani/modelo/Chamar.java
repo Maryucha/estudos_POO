@@ -41,19 +41,22 @@ public class Chamar {
                     case 1:
                         dog.cadCachorro();
                         listaAnimais.add(dog);
+                        dog.latir();
                         break;
                     case 2:
                         cat.cadGato();
                         listaAnimais.add(cat);
+                        cat.miar();
                         break;
                     case 3:
                         horse.cadCavalo();
                         listaAnimais.add(horse);
+                        horse.cavalgar();
                         break;
                     case 4: 
                         fish.cadPeixe();
                         listaAnimais.add(fish);
-                       
+                        fish.nadar();
                         break;
                     case 5:
                         System.out.println("Até mais!");
