@@ -1,7 +1,7 @@
-package br.com.mariani.controle;
+package br.com.mariani.main;
 
 import br.com.mariani.modelo.Animal;
-import br.com.mariani.modelo.Chamar;
+import br.com.mariani.controle.ControleAnimais;
 import java.awt.HeadlessException;
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +17,7 @@ public class Principal {
 
         Scanner entrada = new Scanner(System.in);
         List<Animal> listaAnimais = new ArrayList<>();
-        Chamar telefone = new Chamar();
+        ControleAnimais telefone = new ControleAnimais();
         Integer menu = 0;
         
         do {

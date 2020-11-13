@@ -1,5 +1,11 @@
-package br.com.mariani.modelo;
+package br.com.mariani.controle;
 
+import br.com.mariani.modelo.Animal;
+import br.com.mariani.modelo.Cachorro;
+import br.com.mariani.modelo.Cavalo;
+import br.com.mariani.modelo.EnumEspecie;
+import br.com.mariani.modelo.Gato;
+import br.com.mariani.modelo.Peixe;
 import java.awt.HeadlessException;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +15,7 @@ import java.util.Scanner;
  *
  * @author maryucha
  */
-public class Chamar {
+public class ControleAnimais {
 
     Scanner entrada = new Scanner(System.in);
     Cachorro dog = new Cachorro(EnumEspecie.CACHORRO);
